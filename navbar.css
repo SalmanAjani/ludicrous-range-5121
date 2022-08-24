@@ -1,0 +1,150 @@
+#sticky {
+  /* display: flex; */
+  width: 100vw;
+  height: 23px;
+
+  box-sizing: border-box;
+  position: sticky;
+  /* margin-top: 0px; */
+}
+#para {
+  background-color: black;
+  color: white;
+}
+#para > a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#sticky >div> img {
+  width: 10px;
+  height: 10px;
+  margin-left: 2px;
+  /* margin-top: 1px; */
+}
+
+#navbar {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  /* border: solid 1px red; */
+  /* position: fixed; */
+  /* top: 0; */
+}
+
+#logo {
+  /* border: solid 1px green; */
+  width: 170px;
+  margin-left: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#logo > img {
+  width: 170px;
+  height: 50px;
+}
+#search_bar {
+  /* width: 300px; */
+  /* height: 70px; */
+  margin-left: 52px;
+  /* border: solid 1px aqua; */
+  margin-top: auto;
+  margin-bottom: auto;
+  /* border-radius: 10px; */
+}
+#search {
+  width: 620px;
+  height: 40px;
+  border-radius: 25px 0px 0px 25px;
+}
+#submit {
+  width: 110px;
+  height: 46.6px;
+  margin-left: -5px;
+  background-color: black;
+  color: white;
+  border-radius: 0px 25px 25px 0px;
+  font-size: medium;
+  cursor: pointer;
+}
+#login {
+  display: flex;
+  font-size: 20px;
+  margin: auto;
+  margin-left: 120px;
+}
+
+#login > img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+#logos {
+  margin: auto;
+  /* border: solid 1px brown; */
+  height: 30px;
+}
+#logos > img {
+  width: 25px;
+  height: 18px;
+  /* margin-bottom: 4px; */
+}
+/* slide-bar CSS */
+#slider {
+  position: relative;
+  width: 1500px;
+  height: 340px;
+
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+  float: left;
+}
+#slider ul li img {
+  width: 1500px;
+  height: 340px;
+}
+#slider #prev,
+#slider #next {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#slider #prev {
+  left: 10px;
+  /* opacity: 0; */
+}
+#slider #next {
+  right: 10px;
+  /* opacity: 0; */
+}
+
+#slider #prev:hover,
+#slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+  opacity: 1;
+}
