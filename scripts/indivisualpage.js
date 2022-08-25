@@ -13,6 +13,7 @@
       big.append(img);
       
     });
+    
 
     function print(n) {
       let inner = document.querySelectorAll(".inner");
