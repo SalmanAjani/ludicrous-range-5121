@@ -1,3 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* position: absolute; */
+  /* background-color: white; */
+}
+
 #sticky {
   /* display: flex; */
   width: 100vw;
@@ -17,7 +24,7 @@
   text-decoration: none;
   font-size: 16px;
 }
-#sticky >div> img {
+#sticky > div > img {
   width: 10px;
   height: 10px;
   margin-left: 2px;
@@ -79,6 +86,106 @@
   width: 20px;
   height: 20px;
   margin: auto;
+}
+#popup {
+  margin-left: 820px;
+  margin-top: -76px;
+  width: 700px;
+  height: 100%;
+  /* top: 0; */
+  z-index: 1;
+  position: absolute;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+  /* background: rgba(0, 0, 0, 0.6); */
+  background-image: url(https://in.sugarcosmetics.com/Login_bg.svg);
+  background-position: 10%;
+  background-size: cover;
+}
+#partitioned {
+  margin-left: 10px;
+  padding-bottom: 28px;
+  padding-left: 2px;
+  letter-spacing: 35px;
+  border: 0;
+  background-image: linear-gradient(
+    to left,
+    black 70%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 40px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 480px;
+  outline: none;
+  font-size: larger;
+  font-weight: 600;
+}
+.para {
+  margin-top: 2px;
+  justify-items: center;
+  align-items: center;
+  padding: 23px;
+  overflow-wrap: normal;
+  font-size: 17px;
+  font-weight: 550;
+  text-align: center !important;
+}
+#form {
+  background-color: rosybrown;
+  margin: 40px 20px auto 20px;
+  height: 370px;
+  width: 617px;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
+.heading {
+  display: flex;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.verify {
+  color: #fff;
+  width: 180px;
+  margin-left: 3px;
+  margin-top: 20px;
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  background-color: #fc2779;
+  cursor: pointer;
+}
+#final {
+  width: 360px;
+  height: 400px;
+  margin-left: 70%;
+  position: absolute;
+  z-index: 10;
+  border-radius: 16px;
+  background-color: yellowgreen;
+  display: none;
+}
+#final > input,
+label {
+  width: 90%;
+  height: 30px;
+  margin: 10px auto 10px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: transparent;
+}
+#final button{
+  width: 80px;
+  height: 30px;
+  margin: 3% 45% 45% 35%;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
 }
 #logos {
   margin: auto;

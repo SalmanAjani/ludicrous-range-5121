@@ -1,0 +1,25 @@
+.form-control {
+  -webkit-transition: none;
+  transition: none;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
+
+.form-control:focus {
+  color: #3f4254;
+  background-color: #ffffff;
+  outline: 0;
+  border: none;
+}
+
+.form-control.form-control-solid {
+  background-color: #f3f6f9;
+  border-color: #f3f6f9;
+  color: #3f4254;
+}
+
+.form-control.form-control-solid:active,
+.form-control.form-control-solid.focus {
+  background-color: #ebedf3;
+}
