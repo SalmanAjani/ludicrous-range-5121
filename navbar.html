@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
     <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="otp.css" />
   </head>
   <body>
     <div id="sticky">
@@ -42,8 +43,8 @@
           src="https://in.sugarcosmetics.com/desc-images/person.png"
           alt="Login_tab"
         />
-        <h5>
-          <a href="#"><u>Login/Register</u></a>
+        <h5 class="changerName">
+          <a href="#"><u class="changerName">Login/Register</u></a>
         </h5>
       </div>
       <!-- 3 tab wishlist,add-cart,offers -->
@@ -65,7 +66,131 @@
         />
       </div>
     </div>
+    <div id="popup">
+      <img
+        src="https://in.sugarcosmetics.com/close_white.svg"
+        alt="cross-sign"
+        style="
+          width: 20px;
+          margin-top: 10px;
+          margin-left: 10px;
+          cursor: pointer;
+        "
+        onclick="crossfunc()"
+      />
+      <h1 style="color: white; margin-left: 19px">Login/Signup</h1>
+      <form id="form">
+        <div class="heading">
+          <img
+            src="https://in.sugarcosmetics.com/smartphone.svg"
+            alt="smartphone"
+            style="height: 36px"
+          />
+          <h1 style="font-size: 26px; font-family: Quicksand">
+            Login/Sign Up Using Phone
+          </h1>
+        </div>
+        <div style="display: flex">
+          <h2>+91</h2>
+          <input id="partitioned" type="text" maxlength="10" />
 
+          <button
+            style="
+              color: #fff;
+              width: 130px;
+              font-size: 14px;
+              border: none;
+              padding: 10px;
+              background-color: rgba(121, 107, 107, 0.87);
+            "
+            onclick="reqOTP()"
+          >
+            Request OTP
+          </button>
+        </div>
+        <p style="margin-top: 12px; color: #fc2779">
+          Enter your phone number to request an OTP
+        </p>
+        <hr style="margin: 20px auto 30px auto" />
+        <p>Enter the 4 digit OTP received on your phone.</p>
+        <div class="mb-6 text-center" style="display: flex">
+          <div id="otp" class="flex justify-center">
+            <input
+              class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline"
+              type="text"
+              id="first"
+              maxlength="1"
+            />
+            <input
+              class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline"
+              type="text"
+              id="second"
+              maxlength="1"
+            />
+            <input
+              class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline"
+              type="text"
+              id="third"
+              maxlength="1"
+            />
+            <input
+              class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline"
+              type="text"
+              id="fourth"
+              maxlength="1"
+            />
+          </div>
+        </div>
+        <br />
+        <button class="verify" onclick="verifyOTP()">Verify OTP</button><br />
+        <div style="display: flex; margin-top: 18px">
+          <input type="checkbox" />
+          <p>
+            Get Important Updates on Whatsapp.
+            <a href="#">Terms and Conditions</a>
+          </p>
+        </div>
+      </form>
+      <p class="para">
+        Registering for this site allows you to access your order status and
+        history. Just fill in the <br />fields below, and we'll get a new
+        account set up for you in no time. We will only ask you<br />
+        for information necessary to make the purchase process faster and easier
+      </p>
+      <p style="text-align: center">
+        By Signing up or logging in, you agree to our
+        <a href="#">Terms and Conditions</a>
+      </p>
+    </div>
+    <div id="final">
+      <img
+        src="https://in.sugarcosmetics.com/Footer_sugar_icon.png"
+        alt="sugar_logo"
+        style="width: 80px; margin: 8px 450% 10px 35%"
+      />
+      <img
+        src="https://in.sugarcosmetics.com/close_white.svg"
+        alt="cross-sign"
+        style="
+          width: 20px;
+          margin-top: -86px;
+          margin-left: 323px;
+          cursor: pointer;
+          position: absolute;
+        "
+        onclick="crossfunct()"
+      /><br />
+      <label for="">What's Your Name*</label>
+      <input
+        type="text"
+        placeholder="  Enter your first Name"
+        id="firstName"
+        required
+      />
+      <label for="">What's your email id(Optional)</label>
+      <input type="email" placeholder="  Enter email id" />
+      <button onclick="ok()">Submit</button>
+    </div>
     <!-- Body Section slide-bar show -->
     <div id="slider">
       <ul id="slideWrap">
@@ -129,4 +254,5 @@
     </div>
   </body>
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="navbar.js"></script>
