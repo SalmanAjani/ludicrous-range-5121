@@ -393,6 +393,7 @@
         /* This or That -------------------------------------------- */
         #ThisOrThat{
           display: flex;
+          justify-content: space-evenly;
           margin: auto;
         }
 
