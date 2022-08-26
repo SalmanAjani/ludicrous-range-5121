@@ -1,4 +1,4 @@
-/* Product Slider */
+      /* Product Slider ----------------------------------*/
       html,
       body {
         position: relative;
@@ -45,16 +45,14 @@
       }
 
 
-      /* Bestsellers */
+      /* Bestsellers-------------------------------------*/
       .bestsellers {
         width: 80%;
         height: 100%;
       }
 
       .bst-rgt-btn, .bst-lft-btn{
-        width: 10%;
         color: black;
-        margin-top: 1vh;
       }
 
       .bestsellers-card {
@@ -102,7 +100,7 @@
       }
 
 
-        /* HotDeals */
+        /* HotDeals --------------------------------*/
         .hotdeals{
           width: 98%;
           height: 100%;
@@ -138,5 +136,430 @@
         .htd-rgt-btn, .htd-lft-btn{
           width: 5%;
           color: #007aff;
-          margin-top: 55vh;
+        }
+
+
+        /* Justin -----------------------------*/
+        .justin {
+          width: 80%;
+          height: 100%;
+        }
+  
+        .jtn-rgt-btn, .jtn-lft-btn{
+          color: black;
+        }
+  
+        .justin-card {
+          text-align: center;
+          font-size: 12px;
+          background: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          line-height: 6px;
+        }
+  
+        .justin-card img {
+          display: block;
+          width: 55%;
+          height: 100%;
+          object-fit: cover;
+        }
+  
+        .justin-card>p:nth-child(2){
+          font-weight: 800;
+        }
+  
+        .justin-card>p:nth-child(3){
+          font-size: 15px;
+          font-weight: 400;
+        }
+  
+        .add-btn{
+          background-color: #212529;
+          color: #eee;
+          font-size: 15px;
+          width: 100%;
+          padding: 15px 0px;
+        }
+
+
+        /* Makeup -----------------------------*/
+        #video-id-1{
+          text-align: center;
+        }
+
+
+        /* TopPicks ------------------------------*/
+        .toppicks{
+          width: 98%;
+          height: 100%;
+        }
+
+        .toppicks-card {
+          text-align: center;
+          font-size: 12px;
+          background: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          line-height: 6px;
+        }
+
+        .toppicks-card img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .tpw-rgt-btn, .tpw-lft-btn{
+          width: 5%;
+          color: #007aff;
+        }
+
+
+        /* Gifting -------------------------------*/
+        .gifting {
+          width: 80%;
+          height: 100%;
+        }
+  
+        .gft-rgt-btn, .gft-lft-btn{
+          color: black;
+        }
+  
+        .gifting-card {
+          text-align: center;
+          font-size: 12px;
+          background: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          line-height: 6px;
+        }
+  
+        .gifting-card img {
+          display: block;
+          width: 55%;
+          height: 100%;
+          object-fit: cover;
+        }
+  
+        .gifting-card>p:nth-child(2){
+          font-weight: 800;
+        }
+  
+        .gifting-card>p:nth-child(3){
+          font-size: 15px;
+          font-weight: 400;
+        }
+  
+        .add-btn{
+          background-color: #212529;
+          color: #eee;
+          font-size: 15px;
+          width: 100%;
+          padding: 15px 0px;
+        }
+
+        .color{
+          color: #fc2779;
+        }
+
+        /* Refer */
+        #referfrd{
+          text-align: center;
+          margin: auto;
+        }
+
+        #referfrd>img{
+          width: 95%;
+          margin: auto;
+        }
+
+        /* savers---------------------------- */
+        .savers {
+          width: 80%;
+          height: 100%;
+        }
+  
+        .sv-rgt-btn, .sv-lft-btn{
+          color: black;
+        }
+  
+        .savers-card {
+          text-align: center;
+          font-size: 12px;
+          background: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          line-height: 6px;
+        }
+  
+        .savers-card img {
+          display: block;
+          width: 55%;
+          height: 100%;
+          object-fit: cover;
+        }
+  
+        .savers-card>p:nth-child(2){
+          font-weight: 800;
+        }
+  
+        .savers-card>p:nth-child(3){
+          font-size: 15px;
+          font-weight: 400;
+        }
+  
+        .add-btn{
+          background-color: #212529;
+          color: #eee;
+          font-size: 15px;
+          width: 100%;
+          padding: 15px 0px;
+        }
+
+        .color{
+          color: #fc2779;
+        }
+
+
+        /* Carousal 2 -------------------------------------------*/
+        .crs-2 {
+          width: 100%;
+          height: 100%;
+          margin-top: 50px;
+        }
+  
+         .crs-2-card img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+  
+         .crs-2-rgt-btn,.crs-2-lft-btn{
+          color: #007aff;
+        }
+  
+        section>.my-custom-pagination-div-2{
+          text-align: center;
+          margin-top: 10px;
+        }
+
+        /* This or That -------------------------------------------- */
+        #ThisOrThat{
+          display: flex;
+          margin: auto;
+        }
+
+        #ThisOrThat>div{
+          margin: auto;
+        }
+
+        /* skincare -----------------------------------------*/
+        .skincare {
+          width: 80%;
+          height: 100%;
+        }
+  
+        .skn-rgt-btn, .skn-lft-btn{
+          color: black;
+        }
+  
+        .skincare-card {
+          text-align: center;
+          font-size: 12px;
+          background: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          line-height: 6px;
+        }
+  
+        .skincare-card img {
+          display: block;
+          width: 55%;
+          height: 100%;
+          object-fit: cover;
+        }
+  
+        .skincare-card>p:nth-child(2){
+          font-weight: 800;
+        }
+  
+        .skincare-card>p:nth-child(3){
+          font-size: 15px;
+          font-weight: 400;
+        }
+  
+        .add-btn{
+          background-color: #212529;
+          color: #eee;
+          font-size: 15px;
+          width: 100%;
+          padding: 15px 0px;
+        }
+
+        /* sugar beauty--------------------------------- */
+        .sugar-beauty{
+          width: 98%;
+          height: 100%;
+        }
+
+        .sugar-beauty-card {
+          text-align: center;
+          font-size: 12px;
+          background: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          line-height: 6px;
+        }
+
+        .sugar-beauty-card img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .sbb-rgt-btn, .sbb-lft-btn{
+          width: 5%;
+          color: #007aff;
+        }
+
+        /* quicktips-------------------------------------- */
+        .crs-3 {
+          width: 100%;
+          height: 100%;
+          margin-top: 20px;
+        }
+  
+         .crs-3-card img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+  
+         .crs-3-rgt-btn,.crs-3-lft-btn{
+          color: #007aff;
+        }
+  
+        section>.my-custom-pagination-div-3{
+          text-align: center;
+          margin-top: 10px;
+        }
+
+        /* explore------------------------------------- */
+        .explore{
+          width: 98%;
+          height: 100%;
+        }
+
+        .explore-card {
+          text-align: center;
+          font-size: 12px;
+          background: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          line-height: 6px;
+        }
+
+        .explore-card img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .exp-rgt-btn, .exp-lft-btn{
+          width: 5%;
+          color: #007aff;
+        }
+
+        /* readmore */
+        #read_more{
+          margin: 30px 0px;
+          text-align: center;
+        }
+
+        #read_more>p{
+          font-size: 20px;
+          font-weight: 500;
         }
