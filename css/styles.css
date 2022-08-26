@@ -1,0 +1,142 @@
+/* Product Slider */
+      html,
+      body {
+        position: relative;
+        height: auto;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      h3{
+        text-align: center;
+        font-weight: 100;
+        font-size: 25px;
+        margin-top: 40px;
+      }
+
+
+       /* Carousal */
+       .head {
+        width: 100%;
+        height: 100%;
+      }
+
+       .crs-card img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+       .crs-rgt-btn,.crs-lft-btn{
+        color: #007aff;
+      }
+
+      section>.my-custom-pagination-div{
+        text-align: center;
+        margin-top: 10px;
+      }
+
+
+      /* Bestsellers */
+      .bestsellers {
+        width: 80%;
+        height: 100%;
+      }
+
+      .bst-rgt-btn, .bst-lft-btn{
+        width: 10%;
+        color: black;
+        margin-top: 1vh;
+      }
+
+      .bestsellers-card {
+        text-align: center;
+        font-size: 12px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        line-height: 6px;
+      }
+
+      .bestsellers-card img {
+        display: block;
+        width: 55%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .bestsellers-card>p:nth-child(2){
+        font-weight: 800;
+      }
+
+      .bestsellers-card>p:nth-child(3){
+        font-size: 15px;
+        font-weight: 400;
+      }
+
+      .add-btn{
+        background-color: #212529;
+        color: #eee;
+        font-size: 15px;
+        width: 100%;
+        padding: 15px 0px;
+      }
+
+
+        /* HotDeals */
+        .hotdeals{
+          width: 98%;
+          height: 100%;
+        }
+
+        .hotdeals-card {
+          text-align: center;
+          font-size: 12px;
+          background: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          line-height: 6px;
+        }
+
+        .hotdeals-card img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .htd-rgt-btn, .htd-lft-btn{
+          width: 5%;
+          color: #007aff;
+          margin-top: 55vh;
+        }
