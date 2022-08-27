@@ -26,28 +26,6 @@ var bestsellers = new Swiper(".bestsellers", {
     nextEl: ".bst-rgt-btn",
     prevEl: ".bst-lft-btn",
   },
-  breakpoints: {
-    // when window width is <= 499px
-    499: {
-      slidesPerView: 1,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 999px
-    999: {
-      slidesPerView: 2,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1200px
-    1200: {
-      slidesPerView: 3,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1600px
-    1600: {
-      slidesPerView: 4,
-      spaceBetweenSlides: 50,
-    },
-  },
 });
 
 var hotdeals = new Swiper(".hotdeals", {
@@ -71,28 +49,6 @@ var justin = new Swiper(".justin", {
   navigation: {
     nextEl: ".jtn-rgt-btn",
     prevEl: ".jtn-lft-btn",
-  },
-  breakpoints: {
-    // when window width is <= 499px
-    499: {
-      slidesPerView: 1,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 999px
-    999: {
-      slidesPerView: 2,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1200px
-    1200: {
-      slidesPerView: 3,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1600px
-    1600: {
-      slidesPerView: 4,
-      spaceBetweenSlides: 50,
-    },
   },
 });
 
@@ -118,28 +74,6 @@ var gifting = new Swiper(".gifting", {
     nextEl: ".gft-rgt-btn",
     prevEl: ".gft-lft-btn",
   },
-  breakpoints: {
-    // when window width is <= 499px
-    499: {
-      slidesPerView: 1,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 999px
-    999: {
-      slidesPerView: 2,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1200px
-    1200: {
-      slidesPerView: 3,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1600px
-    1600: {
-      slidesPerView: 4,
-      spaceBetweenSlides: 50,
-    },
-  },
 });
 
 var savers = new Swiper(".savers", {
@@ -151,28 +85,6 @@ var savers = new Swiper(".savers", {
   navigation: {
     nextEl: ".sv-rgt-btn",
     prevEl: ".sv-lft-btn",
-  },
-  breakpoints: {
-    // when window width is <= 499px
-    499: {
-      slidesPerView: 1,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 999px
-    999: {
-      slidesPerView: 2,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1200px
-    1200: {
-      slidesPerView: 3,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1600px
-    1600: {
-      slidesPerView: 4,
-      spaceBetweenSlides: 50,
-    },
   },
 });
 
@@ -203,28 +115,6 @@ var skincare = new Swiper(".skincare", {
   navigation: {
     nextEl: ".skn-rgt-btn",
     prevEl: ".skn-lft-btn",
-  },
-  breakpoints: {
-    // when window width is <= 499px
-    499: {
-      slidesPerView: 1,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 999px
-    999: {
-      slidesPerView: 2,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1200px
-    1200: {
-      slidesPerView: 3,
-      spaceBetweenSlides: 50,
-    },
-    // when window width is <= 1600px
-    1600: {
-      slidesPerView: 4,
-      spaceBetweenSlides: 50,
-    },
   },
 });
 
