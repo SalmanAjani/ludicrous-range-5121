@@ -269,3 +269,7 @@ var explore = new Swiper(".explore", {
     prevEl: ".exp-lft-btn",
   },
 });
+
+function newPage() {
+  window.location.href = "../html/indivisualPage.html";
+}
