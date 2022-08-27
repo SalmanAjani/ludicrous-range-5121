@@ -269,13 +269,3 @@ var explore = new Swiper(".explore", {
     prevEl: ".exp-lft-btn",
   },
 });
-
-let btn1= document.getElementById("btn1");
-btn1.addEventListener("click",data)
-function data(){
-  console.log("hello")
-}
-
-function newPage(){
-  window.location.href="../html/indivisualPage.html"
- }
