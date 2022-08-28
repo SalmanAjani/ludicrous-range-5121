@@ -349,4 +349,5 @@ function rightimg() {
 
 function cart_call() {
   alert("Product successfully added!");
+  window.location.href = "./cart.html";
 }
