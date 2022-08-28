@@ -1,6 +1,3 @@
-      /* Navbar --------------------------------------------------------*/
-      
-      
       /* Product Slider ----------------------------------*/
       html,
       body {
@@ -22,6 +19,7 @@
         font-weight: 100;
         font-size: 25px;
         margin-top: 40px;
+        margin-bottom: 15px;
       }
 
 
@@ -76,6 +74,7 @@
         -webkit-align-items: center;
         align-items: center;
         line-height: 6px;
+        
       }
 
       .bestsellers-card img {
@@ -83,15 +82,21 @@
         width: 55%;
         height: 100%;
         object-fit: cover;
+        
       }
 
       .bestsellers-card>p:nth-child(2){
         font-weight: 800;
+        margin: 10px 0px;
+        padding: 10px 0px;
+        
       }
 
       .bestsellers-card>p:nth-child(3){
         font-size: 15px;
         font-weight: 400;
+        margin: 10px 0px;
+        padding: 10px 0px;
       }
 
       .add-btn{
@@ -181,11 +186,15 @@
   
         .justin-card>p:nth-child(2){
           font-weight: 800;
+          margin: 10px 0px;
+        padding: 10px 0px;
         }
   
         .justin-card>p:nth-child(3){
           font-size: 15px;
           font-weight: 400;
+          margin: 10px 0px;
+        padding: 10px 0px;
         }
   
         .add-btn{
@@ -281,11 +290,15 @@
   
         .gifting-card>p:nth-child(2){
           font-weight: 800;
+          margin: 10px 0px;
+        padding: 10px 0px;
         }
   
         .gifting-card>p:nth-child(3){
           font-size: 15px;
           font-weight: 400;
+          margin: 10px 0px;
+        padding: 10px 0px;
         }
   
         .add-btn{
@@ -350,11 +363,15 @@
   
         .savers-card>p:nth-child(2){
           font-weight: 800;
+          margin: 10px 0px;
+        padding: 10px 0px;
         }
   
         .savers-card>p:nth-child(3){
           font-size: 15px;
           font-weight: 400;
+          margin: 10px 0px;
+        padding: 10px 0px;
         }
   
         .add-btn{
@@ -443,11 +460,15 @@
   
         .skincare-card>p:nth-child(2){
           font-weight: 800;
+          margin: 10px 0px;
+        padding: 10px 0px;
         }
   
         .skincare-card>p:nth-child(3){
           font-size: 15px;
           font-weight: 400;
+          margin: 10px 0px;
+        padding: 10px 0px;
         }
   
         .add-btn{

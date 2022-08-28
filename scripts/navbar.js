@@ -86,7 +86,7 @@ function verifyOTP() {
     }
   }
   if (flag == true) {
-    alert("Login Successful");
+    alert("Signup Successful");
     document.querySelector("#popup").style.display = "none";
     document.querySelector("#final").style.display = "block";
   } else {
@@ -102,6 +102,10 @@ function ok() {
     localStorage.getItem("user_name")
   );
 }
+
+document.getElementById("logo").addEventListener("click", () => {
+  window.location.href = "../html/index.html";
+});
 
 $(document).ready(function () {
   document.querySelector(".changerName").innerHTML = "Login/Register";
