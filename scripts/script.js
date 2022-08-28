@@ -273,3 +273,7 @@ var explore = new Swiper(".explore", {
 function newPage() {
   window.location.href = "../html/indivisualPage.html";
 }
+
+document.getElementById("select_cart").addEventListener("click", () => {
+  window.location.href = "./cart.html";
+});
